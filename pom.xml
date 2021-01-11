@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+
+    <groupId>com.ym.testcaseui</groupId>
+    <artifactId>testcaseui</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>testcaseui</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+
+
+
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-maven-plugin</artifactId>
+            <version>9.4.28.v20200408</version>
+        </dependency>
+        <dependency>
+            <groupId>org.zym</groupId>
+            <artifactId>reportng-z</artifactId>
+            <version>1.6.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>org.uncommons</groupId>-->
+            <!--<artifactId>reportng</artifactId>-->
+            <!--<version>1.1.4</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.7.1</version>
+                <configuration>
+                    <!--设置系统变量,测试报告中img前端不转义-->
+                    <systemPropertyVariables>
+                        <org.umcommons.reportng.escape-output>false</org.umcommons.reportng.escape-output>
+
+                    </systemPropertyVariables>
+                    <!--忽略测试套件执行过程中执行失败的测试方法,继续执行剩余的测试类和测试方法-->
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <!--指定构建过程中的编码格式-->
+                    <argLine>
+                        -Dfile.encoding=UTF-8
+                    </argLine>
+
+                    <!--指定构建(执行测试套件)时要执行的套件文件的路径-->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

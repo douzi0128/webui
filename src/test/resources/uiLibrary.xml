@@ -1,0 +1,12 @@
+<pages>
+    <!--page对象-->
+    <page keyword="百度首页">
+        <!--每一个UIElement对应一个页面元素-->
+        <!--keyword对应元素名称-->
+        <!--by对应查找element的方式-->
+        <!--value对应选择器的值-->
+        <uielement keyword="搜索框" by="id" value="kw"></uielement>
+        <uielement keyword="百度一下按钮" by="id" value="su"></uielement>
+
+    </page>
+</pages>
