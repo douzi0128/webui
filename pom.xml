@@ -67,8 +67,8 @@
         </dependency>
         <dependency>
             <groupId>org.zym</groupId>
-            <artifactId>reportng-z</artifactId>
-            <version>1.6.0</version>
+            <artifactId>reportng-zym</artifactId>
+            <version>2.0.0</version>
             <scope>test</scope>
         </dependency>
 
@@ -77,6 +77,14 @@
             <artifactId>velocity</artifactId>
             <version>1.4</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+            <scope>provided</scope>
+        </dependency>
+
 
         <!--<dependency>-->
             <!--<groupId>org.uncommons</groupId>-->

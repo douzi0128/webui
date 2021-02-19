@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="testcaseui">
-    <test   name="register">
-        <classes>
-            <class name="com.ym.testcaseui_v2.cases.RegisterCase">
+<!--    <test   name="register">-->
+<!--        <classes>-->
+<!--            <class name="com.ym.webui.cases.RegisterCase">-->
 
-            </class>
-        </classes>
-    </test>
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test   name="login">
         <classes>
-            <class name="com.ym.testcaseui_v2.cases.LoginCase">
+            <class name="com.ym.webui.cases.LoginCase">
             </class>
         </classes>
     </test>
@@ -20,7 +20,7 @@
 
     <listeners>
         <!--实现一个监听器,监听用例执行情况,用来判断是否需要截图-->
-       <listener class-name="com.ym.testcaseui_v2.report.CustomListener"></listener>
+       <listener class-name="com.ym.webui.report.CustomListener"></listener>
         <!--报表生成类-->
       <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
   </listeners>
