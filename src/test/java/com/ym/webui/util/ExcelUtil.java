@@ -63,6 +63,8 @@ public class ExcelUtil {
             Log4jUtil.logger.error("用例文件加载失败");
             e.printStackTrace();
         }
+        System.out.println("ExcelUtil封装list完毕");
+
         return list;
     }
 

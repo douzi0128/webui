@@ -1,7 +1,7 @@
 package com.ym.webui.cases;
 
 import com.ym.webui.util.Log4jUtil;
-import com.ym.webui.util.RegisterUtil;
+import com.ym.webui.util.LogInUtil;
 import com.ym.webui.util.UILibraryUtil;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -80,7 +80,7 @@ public class RegisterCase extends Base {
     @DataProvider
     public Object[][] negativeDatas() {
         String[] cellNames = {"Id","Desc","Phone","Password","Msg"};
-        Object[][] datas = RegisterUtil.getDatas("0",cellNames);
+        Object[][] datas = LogInUtil.getDatas("0",cellNames);
         return datas;
     }
 
@@ -93,7 +93,7 @@ public class RegisterCase extends Base {
     @DataProvider
     public Object[][] positiveDatas() {
         String[] cellNames = {"Id","Desc","Phone","Password","Msg"};
-        Object[][] datas = RegisterUtil.getDatas("1",cellNames);
+        Object[][] datas = LogInUtil.getDatas("1",cellNames);
         return datas;
     }
 

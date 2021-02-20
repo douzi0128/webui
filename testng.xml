@@ -11,6 +11,7 @@
     <test   name="login">
         <classes>
             <class name="com.ym.webui.cases.LoginCase">
+
             </class>
         </classes>
     </test>
