@@ -6,6 +6,7 @@ import com.ym.webui.util.ConfigPropertiesUtil;
 import com.ym.webui.util.ExcelUtil;
 import com.ym.webui.util.RegisterUtil;
 import com.ym.webui.util.UILibraryUtil;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -13,6 +14,42 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LoginCase extends Base{
+
+    /**
+     * excel数据预处理
+     */
+    public static List<LogIn> loginDatas = new ArrayList<LogIn>();
+
+    @Test
+    public void exceleDispose(){
+            List<LogIn> list = ExcelUtil.load(ConfigPropertiesUtil.getPath("excel.path"),"login", LogIn.class);
+            loginDatas.addAll(list);
+    }
+
+
+    /**
+     *获取反向用例
+     * @return
+     */
+    @DataProvider
+    public Object[][] negativeDatas() {
+        String[] cellNames = {"Id","Password","Msg"};
+        Object[][] datas = RegisterUtil.getDatas("0",cellNames);
+        return datas;
+    }
+
+
+
+    /**
+     *获取正向用例
+     * @return
+     */
+    @DataProvider
+    public Object[][] positiveDatas() {
+        String[] cellNames = {"Id","Password","Msg"};
+        Object[][] datas = RegisterUtil.getDatas("1",cellNames);
+        return datas;
+    }
 
     /**
      * 执行反向用例
@@ -45,6 +82,8 @@ public class LoginCase extends Base{
 
     }
 
+
+
     /**
      * 执行正向用例
      * @param id
@@ -52,7 +91,8 @@ public class LoginCase extends Base{
      * @param msg
      */
 
-    @Test(dataProvider= "positiveDatas")
+
+    @Test(dataProvider= "positiveDatas",dependsOnMethods = "exceleDispose")
     public void positiveTest(String id,String password,String msg) throws InterruptedException {
         driver.get("http://admin.youquan.ligumall.com/toLogin");
         UILibraryUtil.getElementByKeyword(driver,"有券运营管理系统","用户名").sendKeys(id);
@@ -96,40 +136,6 @@ public class LoginCase extends Base{
     }
 
 
-    //加载excel用例list
-    public static List<LogIn> loginDatas = new ArrayList<LogIn>();
 
-    static {
-        List<LogIn> list = ExcelUtil.load(ConfigPropertiesUtil.getPath("excel.path"),"login", LogIn.class);
-        loginDatas.addAll(list);
-//        for (Register r:registerDatas) {
-//            System.out.println(r);
-//
-//        }
-    }
-
-    /**
-     *获取反向用例
-     * @return
-     */
-    @DataProvider
-    public Object[][] negativeDatas() {
-        String[] cellNames = {"Id","Password","Msg"};
-        Object[][] datas = RegisterUtil.getDatas("0",cellNames);
-        return datas;
-    }
-
-
-
-    /**
-     *获取正向用例
-     * @return
-     */
-    @DataProvider
-    public Object[][] positiveDatas() {
-        String[] cellNames = {"Id","Password","Msg"};
-        Object[][] datas = RegisterUtil.getDatas("1",cellNames);
-        return datas;
-    }
 
 }
