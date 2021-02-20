@@ -1,0 +1,52 @@
+2021-02-19 17:36:33 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[login],要封装的类:[class com.ym.webui.pojo.LogIn]
+2021-02-19 17:36:33 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:36:33 method: com.ym.webui.cases.Base.init(Base.java:18) - [INFO]---------------套件开始执行-----------
+2021-02-19 17:36:33 method: com.ym.webui.cases.Base.init(Base.java:19) - [INFO]----浏览器类型为[chrome]
+2021-02-19 17:36:33 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[用例],要封装的类:[class com.ym.webui.pojo.Register]
+2021-02-19 17:36:33 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:36:33 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[0],列名:[[Ljava.lang.String;@2b4a2ec7]
+2021-02-19 17:36:33 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[1],列名:[[Ljava.lang.String;@1a052a00]
+2021-02-19 17:36:46 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[login],要封装的类:[class com.ym.webui.pojo.LogIn]
+2021-02-19 17:36:47 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:36:47 method: com.ym.webui.cases.Base.init(Base.java:18) - [INFO]---------------套件开始执行-----------
+2021-02-19 17:36:47 method: com.ym.webui.cases.Base.init(Base.java:19) - [INFO]----浏览器类型为[chrome]
+2021-02-19 17:36:47 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[用例],要封装的类:[class com.ym.webui.pojo.Register]
+2021-02-19 17:36:47 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:36:47 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[0],列名:[[Ljava.lang.String;@76c3e77a]
+2021-02-19 17:36:47 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[1],列名:[[Ljava.lang.String;@bd4dc25]
+2021-02-19 17:40:57 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[login],要封装的类:[class com.ym.webui.pojo.LogIn]
+2021-02-19 17:40:57 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:40:57 method: com.ym.webui.cases.Base.init(Base.java:18) - [INFO]---------------套件开始执行-----------
+2021-02-19 17:40:57 method: com.ym.webui.cases.Base.init(Base.java:19) - [INFO]----浏览器类型为[chrome]
+2021-02-19 17:40:57 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[用例],要封装的类:[class com.ym.webui.pojo.Register]
+2021-02-19 17:40:57 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:40:57 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[0],列名:[[Ljava.lang.String;@2b4a2ec7]
+2021-02-19 17:40:57 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[1],列名:[[Ljava.lang.String;@1a052a00]
+2021-02-19 17:41:12 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[login],要封装的类:[class com.ym.webui.pojo.LogIn]
+2021-02-19 17:41:13 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:41:13 method: com.ym.webui.cases.Base.init(Base.java:18) - [INFO]---------------套件开始执行-----------
+2021-02-19 17:41:13 method: com.ym.webui.cases.Base.init(Base.java:19) - [INFO]----浏览器类型为[chrome]
+2021-02-19 17:41:13 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[用例],要封装的类:[class com.ym.webui.pojo.Register]
+2021-02-19 17:41:13 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:41:13 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[0],列名:[[Ljava.lang.String;@76c3e77a]
+2021-02-19 17:41:13 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[1],列名:[[Ljava.lang.String;@bd4dc25]
+2021-02-19 17:41:50 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[login],要封装的类:[class com.ym.webui.pojo.LogIn]
+2021-02-19 17:41:50 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:41:51 method: com.ym.webui.cases.Base.init(Base.java:18) - [INFO]---------------套件开始执行-----------
+2021-02-19 17:41:51 method: com.ym.webui.cases.Base.init(Base.java:19) - [INFO]----浏览器类型为[chrome]
+2021-02-19 17:41:51 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[用例],要封装的类:[class com.ym.webui.pojo.Register]
+2021-02-19 17:41:51 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:41:51 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[0],列名:[[Ljava.lang.String;@75f5fd58]
+2021-02-19 17:41:51 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:29) - [INFO]----开始获取测试数据:是否为正向用例[1],列名:[[Ljava.lang.String;@51cd7ffc]
+2021-02-19 17:48:52 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[login],要封装的类:[class com.ym.webui.pojo.LogIn]
+2021-02-19 17:48:53 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 17:48:53 method: com.ym.webui.cases.Base.init(Base.java:18) - [INFO]---------------套件开始执行-----------
+2021-02-19 17:48:53 method: com.ym.webui.cases.Base.init(Base.java:19) - [INFO]----浏览器类型为[chrome]
+2021-02-19 17:48:53 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:33) - [INFO]----开始获取测试数据:是否为正向用例[0],列名:[[Ljava.lang.String;@cb191ca]
+2021-02-19 17:48:53 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:33) - [INFO]----开始获取测试数据:是否为正向用例[1],列名:[[Ljava.lang.String;@45c8d09f]
+2021-02-19 18:00:29 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:23) - [INFO]----开始加载用例文件:[src/test/resources/case.xlsx],工作表名:[login],要封装的类:[class com.ym.webui.pojo.LogIn]
+2021-02-19 18:00:30 method: com.ym.webui.util.ExcelUtil.load(ExcelUtil.java:63) - [ERROR]----用例文件加载失败
+2021-02-19 18:00:30 method: com.ym.webui.cases.Base.init(Base.java:18) - [INFO]---------------套件开始执行-----------
+2021-02-19 18:00:30 method: com.ym.webui.cases.Base.init(Base.java:19) - [INFO]----浏览器类型为[chrome]
+2021-02-19 18:00:30 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:33) - [INFO]----开始获取测试数据:是否为正向用例[0],列名:[[Ljava.lang.String;@69997e9d]
+2021-02-19 18:00:30 method: com.ym.webui.util.LogInUtil.getDatas(RegisterUtil.java:33) - [INFO]----开始获取测试数据:是否为正向用例[1],列名:[[Ljava.lang.String;@10feca44]

@@ -1,0 +1,20 @@
+<pages>
+    <!--page对象-->
+    <page keyword="百度首页">
+        <!--每一个UIElement对应一个页面元素-->
+        <!--keyword对应元素名称-->
+        <!--by对应查找element的方式-->
+        <!--value对应选择器的值-->
+        <uielement keyword="搜索框" by="id" value="kw"></uielement>
+        <uielement keyword="百度一下按钮" by="id" value="su"></uielement>
+    </page>
+    <page keyword="有券运营管理系统">
+        <uielement keyword="用户名" by="name" value="username"></uielement>
+        <uielement keyword="密码" by="name" value="password"></uielement>
+        <uielement keyword="登录按钮" by="id" value="login-button"></uielement>
+        <uielement keyword="提示信息" by="xpath" value="//*[@class='custom-checkbox service']/span"></uielement>
+
+
+    </page>
+
+</pages>
